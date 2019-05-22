@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CC Connect</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/materialdesignicons.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css"/>
+<link rel="stylesheet" href="css/submain.min.css">
+<link rel="stylesheet" href="css/custom.css"> 
+
+<style>
+
+
+</style>
+</head>
+<body class="skin-blue sidebar-mini ">
+
+<!-- Header Starts Here -->
+<div class="main-page">
+
+
+<header class="main-header">
+  <div class="header-menu-top">
+      <div class="header-top" id="headertop">
+          <div class="left-side-logo-header main-sidebar">
+              <div class="logo-area">
+                  <img src="images/logo.jpg" alt="Logo"/>
+				  <!-- <span style="position:relative;top:-3px;color:#fff;">erp</span> -->
+              </div>
+              
+          </div>
+          <nav class="navbar navbar-static-top p-0">
+              <div class="right-side-menu-bar shadow">
+                  <div class="header-menu">
+                      <ul class="header-menu-list">
+                          
+
+                          <li>
+                              <div class="toggle-area d-sm-block d-md-none">
+                                  <a href="javascript:void(0)" data-toggle="push-menu" role="button">
+                                      <span>
+                                      </span>
+                                  </a>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="notification-list">
+                      <ul class="header-menu-list">
+                          
+                          
+						  <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdownmail" data-toggle="dropdown"
+                                  aria-haspopup="true" aria-expanded="false">
+                                  <img src="images/notification.png"/>
+                              </a>
+                              <div class="notification-menu dropdown-menu card-animation" aria-labelledby="navbarDropdownmail">
+
+                                  <a class="dropdown-item" href="javascript:void(0)">
+                                      <div>
+                                          <strong>Someone likes our posts.</strong>
+                                          <div class="small text-muted">3 hours ago</div>
+                                      </div>
+                                  </a>
+
+                                  <a class="dropdown-item" href="javascript:void(0)">
+                                      <div>
+                                          <strong>Someone likes our posts.</strong>
+                                          <div class="small text-muted">3 hours ago</div>
+                                      </div>
+                                  </a>
+
+                                  <a class="dropdown-item" href="javascript:void(0)">
+                                      <div>
+                                          <strong>Someone likes our posts.</strong>
+                                          <div class="small text-muted">3 hours ago</div>
+                                      </div>
+                                  </a>
+                                  <div class="noti-info">
+                                      <a class="dropdown-item" href="javascript:void(0)">
+                                          View all Notification</a>
+                                  </div>
+                              </div>
+                          </li>
+
+
+
+
+
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                  aria-haspopup="true" aria-expanded="false">
+                                  <img src="images/question.png"/>
+                              </a>
+                              <div class="dropdown-menu card-animation" aria-labelledby="navbarDropdownMenuLink">
+                                  <div class="admin-name">
+                                      <h2>John Dio</h2>
+                                      <h4>Administrator</h4>
+                                  </div>
+                                  <a class="dropdown-item" href="javascript:void(0)"><i class="user-icon fa fa-user" aria-hidden="true"></i>My
+                                      profile</a>
+                                  <a class="dropdown-item" href="javascript:void(0)"><i class="user-icon fa fa-cog" aria-hidden="true"></i>Settings</a>
+                                  <a class="dropdown-item" href="javascript:void(0)"><i class="user-icon fa fa-sign-out" aria-hidden="true"></i>Logout</a>
+
+                              </div>
+                          </li>
+
+
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+      </div>
+  </div>
+</header>
+
+
+<!-- Sidebar Starts Here -->
+
+
+<!-- <Left Section Start> -->
+    <section class="left-side-bar main-sidebar">
+        <div class="left-side">
+            <ul class="sidebar-menu" data-widget="tree">
+				<li class="top-main-txt">
+					<ul>
+						<li class="align-center first-li-inner">
+							<img src="images/user.png">
+							<span>
+							<div class="toggle-area">
+							  <a href="javascript:void(0)" data-toggle="push-menu" role="button">
+								  <img src="images/ham-icon.png">
+							  </a>
+						    </div>
+						 		
+							</span>
+						</li>
+						<li class="second-li-inner">
+							<h3>Welcome</h3>
+						</li>
+						<li class="third-li-inner">
+							<h4>Virtuoso Offshore</h4>
+						</li>
+					</ul>
+				</li>
+                
+				<li class="active">
+                    <a routerLink="/">
+                        <!-- <i class="fa fa-dashboard" aria-hidden="true"></i> -->
+						<i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                
+				<li class="treeview">
+                    <a href="javascript:void(0)">
+                        <!-- <i class="fa fa-tasks" aria-hidden="true"></i> -->
+						<i class="fas fa-donate" aria-hidden="true"></i>
+                        <span>Claim Details</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-right pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="Pg">
+                            <a routerLink="/about">
+                                About US</a>
+                        </li>
+                        <li>
+                            <a routerLink="/ourcompany">
+                                Our Company</a>
+                        </li>
+      
+                    </ul>
+                </li>
+      
+                <li class="treeview">
+                    <a href="javascript:void(0)">
+                        <!-- <i class="fa fa-pencil-square-o" aria-hidden="true"></i> -->
+						<i class="fas fa-hospital"></i>
+                        <span>Network Hospital</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-right pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="Pg">
+                            <a routerLink="/basicforms">
+                                Invoice 1</a>
+                        </li>
+                        <li>
+                            <a routerLink="/formsdatepicker">
+                                Invoice 1</a>
+                        </li>
+      
+                    </ul>
+                </li>
+                
+				<li class="treeview">
+                    <a href="javascript:void(0)">
+                        <!-- <i class="fa fa-laptop" aria-hidden="true"></i> -->
+						<i class="fas fa-clipboard-list"></i>
+                        <span>Account Statement</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-right pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="Pg">
+                            <a href="buttons.html">
+                                Payment1</a>
+                        </li>
+                        <li class="Pg">
+                            <a href="badges.html">
+                                Payment2</a>
+                        </li>
+                        <li class="Pg">
+                            <a href="tabs.html">
+                                Tabs</a>
+                        </li>
+                        <li class="Pg">
+                            <a href="social-button.html">
+                                Social Buttons</a>
+                        </li>
+                        <li class="Pg">
+                            <a href="card.html">
+                                Cards</a>
+                        </li>
+                        <li class="Pg">
+                            <a href="alert.html">
+                                Alerts</a>
+                        </li>
+                        <li class="Pg">
+                            <a href="progress-bars.html">
+                                Progress Bars</a>
+                        </li>
+                        <li class="Pg">
+                            <a href="modals.html">
+                                Modals</a>
+                        </li>
+                        <li class="Pg">
+                            <a href="switches.html">
+                                switches</a>
+                        </li>
+                        <li class="Pg">
+                            <a href="grids.html">
+                                Grids</a>
+                        </li>
+                        <li class="Pg">
+                            <a href="typography.html">
+                                Typography</a>
+                        </li>
+      
+      
+      
+                    </ul>
+                </li>
+                
+				
+				<li class="treeview">
+                    <a href="javascript:void(0)">
+                        <i class="fas fa-phone-volume"></i>
+                        <span>Contact Us</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-right pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="Pg">
+                            <a href="chart.html">
+                                Vendor1</a>
+                        </li>
+                        <li class="Pg">
+                            <a href="peity-chart.html">
+                                Vendor2</a>
+                        </li>
+      
+                    </ul>
+                </li>
+      
+				<li class="treeview">
+                    <a href="javascript:void(0)">
+                        <!-- <i class="fa fa-tasks" aria-hidden="true"></i> -->
+						<i class="fas fa-download"></i>
+                        <span>Downloads</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-right pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="Pg">
+                            <a routerLink="/about">
+                                About US</a>
+                        </li>
+                        <li>
+                            <a routerLink="/ourcompany">
+                                Our Company</a>
+                        </li>
+      
+                    </ul>
+                </li>
+				
+				<li class="treeview">
+                    <a href="javascript:void(0)">
+                        <!-- <i class="fa fa-tasks" aria-hidden="true"></i> -->
+						<i class="fas fa-sign-out-alt"></i>
+                        <span>Logout</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-right pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="Pg">
+                            <a routerLink="/about">
+                                About US</a>
+                        </li>
+                        <li>
+                            <a routerLink="/ourcompany">
+                                Our Company</a>
+                        </li>
+      
+                    </ul>
+                </li>
+				
+				
+            </ul>
+      
+        </div>
+      </section>
+<!-- <Left Section End> -->
+
+
+
+<!-- Main Starts Here -->
+
+<div class="right-area content-wrapper">
+  <div class="content-header">
+
+
+<div class="container">
+    <div class="counters top-counter-sec">
+		<h4><img src="images/employer-heading-icon.png"/>Employer Dashboard</h4>	
+        <div class="row top-counter-row">
+			<div class="col-sm-6 left-insurance-card">
+				<div class="card">
+					<div class="card-body">
+						<h3>Religare Health Insurance Company Ltd</h3>
+						<h5>Group Health Insurance</h5>
+						<div class="booking-innerrow">
+							<p class="left-bookingtext">Booking ID : 88198065</p>
+							<p class="right-bookingtext">Policy no. : 13577101
+								<img src="images/download.png"/>
+							</p>
+						</div>
+						
+						<div class="contact-greybg">
+							<div class="top-contact-row">
+								<h6>Contact info</h6>
+								<span>
+									<img src="images/edit.png"/>
+									Edit
+								</span>
+							</div>
+							<table>
+								<tbody>
+									<tr>
+										<td><img src="images/avatar.png"/></td>
+										<td>Contact Person</td>
+										<td  colspan="2"><input type="text" value="Ms Suchismita Sikdar" disabled></td>
+									</tr>
+									<tr>
+										<td><img src="images/envelope.png"/></td>
+										<td>Email</td>
+										<td colspan="2"><input type="text" value="suchismita.s@virtuosoconsult.com" disabled></td>
+									</tr>
+									<tr>
+										<td><img src="images/phone-call.png"/></td>
+										<td>Mobile No.</td>
+										<td class="inner-greybgbtn-row">
+											<input type="text" value="9910994502" disabled> 
+											<button>Done</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-6 right-number-data">
+			 	<div class="row">
+					<div class="col-sm-5">
+						<div class="card">
+							<div class="card-body">
+								<div class="top-numrow">
+									<h2>52</h2>
+									<div class="inner-num-icon">
+										<img src="images/employee.png"/>
+									</div>
+								</div>
+								<h4>Employee count</h4>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-7">
+						<div class="card">
+							<div class="card-body">
+								<div class="top-numrow">
+									<h2>30.01.19</h2>
+									<div class="inner-num-icon">
+										<img src="images/date-icon.png"/>
+									</div>
+								</div>
+								<h4>Policy Expiry Date</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="card">
+							<div class="card-body">
+								<div class="top-numrow">
+									<h2>89</h2>
+									<div class="inner-num-icon">
+										<img src="images/family-room.png"/>
+									</div>
+								</div>
+								<h4>Lives Covered</h4>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-7">
+						<div class="card">
+							<div class="card-body">
+								<div class="top-numrow">
+									<h2>2,92,304.00</h2>
+									<div class="inner-num-icon">
+										<img src="images/rupee.png"/>
+									</div>
+								</div>
+								<h4>CD Balance</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			
+			
+	   </div>
+	   
+	   <div class="mid-counter-row">
+		<div class="card">
+			<h5 class="card-header">Search Employee</h5>
+			<div class="card-body">
+				<div class="search-secrow row">
+					<div class="col-sm-5 left-searchbar">
+						<label>Employee Code</label>
+						<input type="text" class="search-filter" placeholder="Enter Employee code">
+					</div>
+					<div class="col-sm-1 or-class">
+						<span>OR</span>
+					</div>
+					<div class="col-sm-6 right-searchbar">
+						<label>Membership No.</label>
+						<input type="text" class="search-filter" placeholder="Enter Membership No.">
+						<button>Submit</button>
+					</div>
+				</div>
+				<div class="viewalllives-row">
+					<a href="javascript:void(0)">View all lives
+						<span><!-- <img src=" images/arrow-down.png"/> -->
+						<i class="fa fa-angle-down"></i>
+						</span>
+					</a>
+				</div>
+				<div class="table-responsive " style="overflow-x:auto;">
+					<table id="employee-search" class="table " style="width:100%">
+						<thead>
+							<tr>
+								<th class="employee-first-cell"></th>
+								<th>Name</th>
+								<th>Gender</th>
+								<th>DOB(DD/MM/YY)</th>
+								<th>Age</th>
+								<th>Relation Type</th>
+								<th>E-card</th>
+								
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="employee-first-cell"><span>AJ</span></td>
+								<td class="name-td-class">Abu Jais</td>
+								<td><img src="images/male.png"/></td>
+								<td class="date-td-class">Tue, Dec 31 1991</td>
+								<td>27</td>
+								<td>Self</td>
+								<td><a href="javascript:void(0)"><img src="images/id-card.png"/></a></td>
+							</tr>
+							<tr>
+								<td class="employee-first-cell"><span>AS</span></td>
+								<td class="name-td-class">Ankit Kumar Sinha</td>
+								<td><img src="images/male.png"/></td>
+								<td class="date-td-class">31/12/1993</td>
+								<td>27</td>
+								<td>Self</td>
+								<td><a href="javascript:void(0)"><img src="images/id-card.png"/></a></td>
+							</tr>
+							<tr>
+								<td class="employee-first-cell"><span>HD</span></td>
+								<td class="name-td-class">Harshit Deep</td>
+								<td><img src="images/male.png"/></td>
+								<td class="date-td-class">31/12/1993</td>
+								<td>25</td>
+								<td>Self</td>
+								<td><a href="javascript:void(0)"><img src="images/id-card.png"/></a></td>
+							</tr>
+							<tr>
+								<td class="employee-first-cell"><span>J</span></td>
+								<td class="name-td-class">Jaya</td>
+								<td><img src="images/female.png"/></td>
+								<td class="date-td-class">31/12/1993</td>
+								<td>25</td>
+								<td>Self</td>
+								<td><a href="javascript:void(0)"><img src="images/id-card.png"/></a></td>
+							</tr>
+							<tr>
+								<td class="employee-first-cell"><span>J</span></td>
+								<td class="name-td-class">Manpreet Kaur Arora</td>
+								<td><img src="images/female.png"/></td>
+								<td class="date-td-class">31/12/1993</td>
+								<td>25</td>
+								<td>Self</td>
+								<td><a href="javascript:void(0)"><img src="images/id-card.png"/></a></td>
+							</tr>
+							<tr>
+								<td class="employee-first-cell"><span>MK</span></td>
+								<td class="name-td-class">Manish Kumar</td>
+								<td><img src="images/male.png"/></td>
+								<td class="date-td-class">31/12/1993</td>
+								<td>25</td>
+								<td>Self</td>
+								<td><a href="javascript:void(0)"><img src="images/id-card.png"/></a></td>
+							</tr>
+														  
+					   </tbody>
+						
+					</table>
+				</div>
+				
+		    </div>
+		</div>
+	   </div>
+    </div>
+
+	<div class="footer-disclaimer-area">
+		<p>“Disclaimer: The information displayed on My Account is only for information sake and are updates to the customer as received from the Insurer 
+		and Policybazaar shall not be liable and/or responsible for the accuracy, completeness, legality, or reliability of the information contained in 
+		this My Account section.”</p>
+	</div>
+
+
+</div>
+
+
+
+<!-- footer starts here -->
+
+
+
+
+
+  </div>
+</div>
+</div>
+
+
+
+
+
+<!-- Javascript Start Here -->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/default.min.js"></script>
+<script src="js/app.js"></script> 
+
+
+
+
+
+<script>
+$(document).ready(function(){
+	$('.top-contact-row>span').click(function(){
+		$('.contact-greybg table tr>td input').prop("disabled", false);
+		$('.contact-greybg table tr>td button').css("display", "block");
+		
+	})
+	
+	$('.viewalllives-row>a').click(function(){
+		$('table#employee-search>tbody').toggleClass("show-tbody");
+		$(this).toggleClass("viewall-active");
+	})
+})
+</script>
+
+</body>
+<html>
