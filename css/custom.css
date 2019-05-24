@@ -10817,3 +10817,30 @@ table.main-common-table.detail-table>thead>tr>th.employee-first-cell, table.main
   width:auto;
 }
 /* =================== Abhay 23-05-2019 Css Starts Here ===================== */
+
+/* =================== Abhay 24-05-2019 Css Starts Here ===================== */
+
+.mid-claim-row .viewalllives-row{
+overflow:hidden;
+}
+.mid-claim-row .viewalllives-row .nav{
+  float:left;
+}
+.table-download-btn {
+  float: right;
+}
+.table-download-btn>a{
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0065ff;
+}
+.table-download-btn>a>img{
+vertical-align: text-bottom;
+margin-left: 5px;
+}
+  /* =================== Abhay 24-05-2019 Css Ends Here ===================== */
