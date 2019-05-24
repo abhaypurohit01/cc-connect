@@ -10612,9 +10612,12 @@ overflow:initial;
 table.main-common-table>thead>tr>th.employee-first-cell{
 	width:80px;
 }
+
 table.main-common-table>tbody{
     border: solid 1px rgba(112, 112, 112, 0.2);	
- 	display:none; 
+}
+table#employee-search.main-common-table>tbody{
+  display:none;
 }
 table.main-common-table>tbody>tr>td{
   border:0px;
@@ -10654,13 +10657,16 @@ table.main-common-table>tbody>tr:nth-child(even) {
 .notification-list{
     margin: 0 30px 0 10px;	
 }
-table.main-common-table>tbody.show-tbody{
+table#employee-search.main-common-table>tbody.show-tbody{
     display: table-row-group;
 }
 .viewalllives-row>a.viewall-active{
 	color: #9f9f9f;
 }
-
+.mid-download-row table.main-common-table>thead>tr>th:nth-child(2), .mid-download-row  table.main-common-table>tbody>tr>td:nth-child(2){
+  width: 220px;
+  text-align: left;  
+}
 
 
 
@@ -10843,4 +10849,168 @@ overflow:hidden;
 vertical-align: text-bottom;
 margin-left: 5px;
 }
+
+.theme-button{
+  height: 30px;
+  border-radius: 6px;
+  background-color: #0065ff;
+  font-size: 14px;
+  line-height: 1.36;
+  color: #f6f6f6;
+  border: 0;
+  width: 120px;
+}
+.theme-textbox{
+  border-radius: 6px;
+  border: solid 1px #9f9f9f;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  opacity: 0.55;
+  padding: 4px 6px 4px 6px;
+  margin-left: 10px;
+}
+.hospital-search.search-secrow input.search-filter{
+  padding: 6px 6px 6px 30px;
+  width: 440px;  
+  background-position: 10px center;  
+  margin-left: 0;    
+}
+.hospital-search .theme-button{
+margin-left:10px;
+}
+
+.hospital-searcharea {
+  overflow: hidden;
+}
+.searchbox-cont {
+  float: left;
+  padding: 30px 20px;
+  background: #d8d8f8;
+  margin-right: 20px;
+  width: 290px;
+  margin-bottom: 30px;
+}
+.mid-hospital-row .viewalllives-row{
+  margin-bottom: 40px;
+}
+.searchbox-cont h4{
+font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  color: #707070;
+  margin-bottom: 15px;
+}  
+.searchbox-cont p{
+  font-size: 16px;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #707070;
+}  
+.searchbox-cont p.top-hospital-text{
+  margin-bottom:20px;
+}
+.searchbox-cont p>span{
+  display: block;
+}
+.searchbox-cont p strong{
+  font-weight: 700;
+}
+.searchbox-cont:nth-child(even){
+  background-color: #f6f6f6;
+}
+.mid-counter-row.mid-hospital-row {
+  margin-top: 50px;
+}
+
+
+.mid-contact-row .viewalllives-row>p{
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: left;
+  color: #717171;  
+}
+.mid-contact-row .contact-inner-cont p{
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  margin-bottom: 5px;
+}
+.mid-contact-row .contact-inner-cont p img {
+  margin-right: 5px;
+}
+.right-area.content-wrapper .mid-contact-row .card-body{
+  padding: 25px 20px 25px 30px;  
+}
+
+.left-contact-form>h4 {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: left;
+  color: #353535;
+  margin-bottom: 20px;
+}
+
+.left-contact-form .theme-textbox {
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #d4d4d4;
+  margin-left: 0;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  padding: 2px 15px;  
+}
+.left-contact-form  textarea.message-contact-field.theme-textbox{
+  height:150px;
+  padding: 10px 15px;  
+}
+
+.left-contact-form .theme-textbox::-webkit-input-placeholder { /* Edge */
+  color: #d4d4d4;
+}
+
+.left-contact-form .theme-textbox:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #d4d4d4;
+}
+
+.left-contact-form .theme-textbox::placeholder {
+  color: #d4d4d4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* =================== Abhay 24-05-2019 Css Ends Here ===================== */
