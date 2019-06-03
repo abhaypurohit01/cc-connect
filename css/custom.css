@@ -11116,3 +11116,86 @@ font-size: 44px;
 .top-counter-sec .employee-slider.owl-carousel .card{
   margin-bottom:0px;
 }
+
+
+
+
+
+
+
+/* ===================== Abhay 03-06-2019 Css Starts Here ======================== */
+
+.accountbg {
+  background: url(../images/bg-1.jpg);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+.login_wrapper {
+  margin-top: 6% !important;
+}
+.login_wrapper.wrapper-page {
+  margin: 7.5% auto;
+  max-width: 460px;
+  position: relative;
+}
+.m-b-15 {
+  margin-bottom: 15px;
+}
+.wrapper-page .logo-admin {
+  font-size: 28px;
+  line-height: 70px;
+}
+.login_wrapper>h3, .login_wrapper .card-body, .text-center-class{
+  text-align: center;
+}
+.login_wrapper .card {
+  border: none;
+  box-shadow: 1px 0 20px rgba(0,0,0,.05);
+}
+.font-18 {
+  font-size: 18px;
+  
+}
+.font-18 b{
+  font-weight: 700;
+}
+.login_hd {
+  margin: 0 !important;
+}
+.login_wrapper .form-control {
+  font-size: 15px;
+}
+.login_wrapper .radio_btn {
+  width: 100%;
+}
+.login_wrapper .radio_btn > .btn {
+  width: 33.3333% !important;
+  border-radius: 3px;
+  font-size: 15px;
+}
+.m-t-20 {
+  margin-top: 20px;
+}
+.btn {
+  border-radius: 3px;
+  font-size: 15px;
+}
+.btn-info {
+  background-color: #0097a7;
+  border: 1px solid #0097a7;
+  color: #fff;  
+}
+.login_wrapper .form-horizontal .form-control{
+  height:auto;
+}
+.login_wrapper .form-horizontal input.form-control{
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

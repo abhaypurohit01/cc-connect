@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CC Connect</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/materialdesignicons.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css"/>
+<link rel="stylesheet" href="css/submain.min.css">
+<link rel="stylesheet" href="css/custom.css"> 
+</head>
+<body class="skin-blue sidebar-mini ">
+
+<!-- Header Starts Here -->
+<div class="main-page">
+
+
+    <div class="accountbg"></div>
+    <div class="wrapper-page login_wrapper">
+        <h3 class=" mt-0 m-b-15">
+            <a href="./index.html" class="logo logo-admin">
+                <img src="images/policy_logo.png" height="57" alt="logo">
+            </a>
+        </h3>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="text-muted font-18"><b>Sign In</b></h4>
+                <div class="p-3 login_hd">
+                    <form class="form-horizontal m-t-20 login_hd" action="index.html">
+                        <div class="form-group row">
+                            <div class="col-12">
+                                <input type="text" class="form-control" name="username" value="" placeholder="Username">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-12">
+                                <input type="password" class="form-control" name="password" value="" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="btn-group btn-group-toggle radio_btn" id="logintab">
+                            <label class="btn btn-light"><input type="radio" name="userType" value="3">Employee</label>
+                            <label class="btn btn-light"><input type="radio" name="userType" value="2">Employer</label>
+                            <label class="btn btn-light active"><input type="radio" name="userType" value="1">Agent</label>
+                        </div>
+                        <div id="login_msg" style="display: none;">
+                            <p class="login_error">Please Enter Valid User Name and Password</p>
+                        </div>
+                        <div class="form-group text-center-class row m-t-20">
+                            <div class="col-12">
+                                <button class="btn btn-info btn-block waves-effect waves-light" type="submit">Log In</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+<!-- Javascript Start Here -->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/default.min.js"></script>
+<script src="js/app.js"></script> 
+
+<script>
+$(function(){
+    $("#logintab>.btn-light").click(function () {
+        $(".btn-light").removeClass("active");
+        // $(".tab").addClass("active"); // instead of this do the below 
+        $(this).addClass("active");   
+    });
+});
+</script>
+
+</body>
+<html>
