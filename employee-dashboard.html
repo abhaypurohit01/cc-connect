@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
 <link rel="stylesheet" href="css/materialdesignicons.css">
 <link rel="stylesheet" href="css/font-awesome.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css"/>
 <link rel="stylesheet" href="css/submain.min.css">
 <link rel="stylesheet" href="css/custom.css"> 
 </head>
@@ -342,8 +342,8 @@
 		<h4>Employee Details</h4>
 		<div class="employee-dash-toprow row">
 			<div class="col-sm-9">
-				<div class="row">
-					<div class="col-sm-4">
+				<div class="employee-slider owl-carousel owl-theme">
+					<div class="item">
 						<div class="card">
 							<div class="card-body">
 								<h3>Rajan Kumar <img src="images/male.png"></h3>
@@ -358,7 +358,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="item">
 						<div class="card">
 							<div class="card-body">
 								<h3>Rajan Kumar <img src="images/male.png"></h3>
@@ -373,7 +373,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="item">
 						<div class="card">
 							<div class="card-body">
 								<h3>Rajan Kumar <img src="images/male.png"></h3>
@@ -386,7 +386,23 @@
 								</a>
 							</div>
 						</div>
-					</div>	
+					</div>
+					
+					<div class="item">
+						<div class="card">
+							<div class="card-body">
+								<h3>Rajan Kumar <img src="images/male.png"></h3>
+								<h5>Self</h5>
+								<p>DOB: 31.12.1990</p>
+								<span class="membership-bg">Membership No: 65203653</span>
+								<a class="view-card-bg">
+									View E-card
+									<img src="images/id-card.png">
+								</a>
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -516,8 +532,79 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 <script src="js/default.min.js"></script>
 <script src="js/app.js"></script> 
+<script>
+
+var totalItems = $('.item').length;
+
+
+// If there is only three slides
+if (totalItems == 3) {
+  // Set loop option variable to false
+  var isLooped = false;
+  // Set nav option variable to false
+  var isNav = false;
+} 
+else {
+  // Set loop option variable to true
+  var isLooped = true;
+
+
+  // Set loop option variable to true
+  var isNav = true;
+}
+
+// If there is only two slides
+if (totalItems == 2) {
+    // Set loop option variable to false
+    var isLooped = false;
+    // Set nav option variable to false
+    var isNav = false;
+  } 
+  else {
+    // Set loop option variable to true
+    var isLooped = true;
+
+
+    // Set loop option variable to true
+    var isNav = true;
+  }
+
+// If there is only one slide
+if (totalItems == 1) {
+    // Set loop option variable to false
+    var isLooped = false;
+    // Set nav option variable to false
+    var isNav = false;
+  } 
+  else {
+    // Set loop option variable to true
+    var isLooped = true;
+
+
+    // Set loop option variable to true
+    var isNav = true;
+  }
+
+$('.employee-slider.owl-carousel').owlCarousel({
+    loop:isLooped,
+	nav:isNav,
+	dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        767:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+</script>
 
 </body>
 <html>

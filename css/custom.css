@@ -11083,3 +11083,36 @@ span.submit-formicon, span.cross-formicon{
 span.submit-formicon{
   margin-right:15px;
 }
+
+.employee-slider.owl-carousel{
+  margin-bottom: 30px;
+}
+
+.employee-slider.owl-carousel .owl-item img{
+  width:auto;
+  display: inline-block;
+}
+
+.employee-slider.owl-carousel .owl-item{
+  padding:10px;
+}
+.employee-slider.owl-carousel .owl-nav button.owl-prev, .employee-slider.owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -10px;
+}
+.employee-slider.owl-carousel .owl-nav button.owl-prev:focus, .employee-slider.owl-carousel .owl-nav button.owl-next:focus{
+  outline:0px;
+}
+
+.employee-slider.owl-carousel .owl-nav button.owl-next {
+  right: -10px;
+  left: auto;
+}
+.employee-slider.owl-carousel .owl-nav button.owl-prev span, .employee-slider.owl-carousel .owl-nav button.owl-next span{
+font-size: 44px;
+}
+.top-counter-sec .employee-slider.owl-carousel .card{
+  margin-bottom:0px;
+}
